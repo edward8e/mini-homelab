@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-radarr
+  namespace: radarr
+  labels:
+    app: radarr
+spec:
+  selector:
+    app: radarr
+  ports:
+    - port: 80
+      targetPort: 7878
+  
