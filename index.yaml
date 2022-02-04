@@ -23,6 +23,30 @@ entries:
     urls:
     - https://github.com/edward8e/mini-homelab/releases/download/bazarr-0.1.2/bazarr-0.1.2.tgz
     version: 0.1.2
+  code-server:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-04T21:20:37.071850749Z"
+    description: Code-Server Helm Chart compatible with ARM64 and ARM Docker Images.
+      Tested on K3s Raspberry Pi4 cluster.
+    digest: 81d8ce6a4f9ef006f9eaeb5777394e188a37b687e66fb868c40f7db67dbb54ee
+    name: code-server
+    type: application
+    urls:
+    - https://github.com/edward8e/mini-homelab/releases/download/code-server-0.1.3/code-server-0.1.3.tgz
+    version: 0.1.3
+  flood:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-04T21:20:37.259339488Z"
+    description: Flood Helm Chart compatible with ARM64 and ARM Docker Images. Tested
+      on K3s Raspberry Pi4 cluster.
+    digest: ffda0dd72bed55203db757fe9945b651a17450acb3b3c73cd0c4ea6e66fa3349
+    name: flood
+    type: application
+    urls:
+    - https://github.com/edward8e/mini-homelab/releases/download/flood-0.1.4/flood-0.1.4.tgz
+    version: 0.1.4
   homer:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -326,4 +350,16 @@ entries:
     urls:
     - https://github.com/edward8e/mini-homelab/releases/download/uptime-kuma-0.1.2/uptime-kuma-0.1.2.tgz
     version: 0.1.2
-generated: "2022-02-04T19:39:52.663459338Z"
+  wireguard:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-04T21:20:37.86860316Z"
+    description: Wireguard Helm Chart compatible with ARM64 and ARM Docker Images.
+      Tested on K3s Raspberry Pi4 cluster.
+    digest: 9cd39033face5e54172b742c0b59efde67f70323b5e35d7e56c4dea13852ce42
+    name: wireguard
+    type: application
+    urls:
+    - https://github.com/edward8e/mini-homelab/releases/download/wireguard-0.1.4/wireguard-0.1.4.tgz
+    version: 0.1.4
+generated: "2022-02-04T21:20:37.868681057Z"
