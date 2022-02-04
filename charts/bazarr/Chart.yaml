@@ -1,0 +1,9 @@
+apiVersion: v2
+name: bazarr
+description: Bazarr Helm Chart compatible with ARM64 and ARM Docker Images. Tested on K3s Raspberry Pi4 cluster.
+
+type: application
+
+version: 0.1.2
+
+appVersion: "1.16.0"
