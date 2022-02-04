@@ -1,6 +1,6 @@
 apiVersion: v2
 name: sonarr
-description: A Helm chart for Sonarr for Kubernetes
+description: Sonarr Helm Chart compatible with ARM64 and ARM Docker Images. Tested on K3s Raspberry Pi4 cluster.
 
 type: application
 

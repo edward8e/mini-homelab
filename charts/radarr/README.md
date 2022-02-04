@@ -1,23 +1,8 @@
 ![Version: 0.1.0](https://img.shields.io/badge/Version-0.1.0-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) 
-# Mini-Homelab helm chart
-Homelab Helm Charts compatible with ARM64 and ARM Docker Images.
 
-Helm charts I've put together to quickly get up and running with the most popular homelab applications and continuously adding.
-
-### Applications:
-- Radarr
-- Sonarr
-- Lidarr
-- Readarr
-- Overseerr
-- Jackett
-- qBittorrent
-- Wireguard
-- Gluetun
-- Homer
-- Mealie
-- Uptime Kuma
-- Forwarder (custom)
+# Radarr
+Radarr Helm Chart compatible with ARM64 and ARM Docker Images.
+Tested on K3s Raspberry Pi4 cluster.
 
 
 ### Testing on:
@@ -37,9 +22,12 @@ helm repo add edward8e https://edward8e.github.io/mini-homelab/
 helm repo update
 
 # Install/Upgrade chart
-helm upgrade -i sonarr edward8e/sonarr -f values.yaml
+helm upgrade -i radarr edward8e/radarr -f values.yaml
 
 # List Charts
 helm search repo edward8e
 ```
-
+## Prerequisites
+- Kubernetes 1.12+
+- Helm 3.x
+- PV provisioner support in the underlying infrastructure
