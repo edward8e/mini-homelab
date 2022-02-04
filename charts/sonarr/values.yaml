@@ -93,7 +93,7 @@ env:
   PUID: "1000"
   PGID: "1000"
 
-# -- `spec.PersitentVolumeClaimConfig` configuration
+# -- `spec.PersistentVolumeClaimConfig` configuration
 persistentVolumeClaimConfig:
   # -- set to true to use pvc
   enabled: false
@@ -101,7 +101,7 @@ persistentVolumeClaimConfig:
   # -- specify an existing `PersistentVolumeClaimConfig` to use
   # existingClaim: ""
 
-  # -- Annotations for the `PersitentVolumeClaim`
+  # -- Annotations for the `PersistentVolumeClaimConfig`
   annotations: {}
 
   accessModes:
@@ -130,15 +130,15 @@ customVolumesConfig:
     # hostPath:
     #   path: "/mnt/data"
 
-# -- `spec.PersitentVolumeClaimConfig` configuration
+# -- `spec.PersistentVolumeClaimData` configuration
 persistentVolumeClaimData:
   # -- set to true to use pvc
   enabled: false
 
-  # -- specify an existing `PersistentVolumeClaimConfig` to use
+  # -- specify an existing `PersistentVolumeClaimData` to use
   # existingClaim: ""
 
-  # -- Annotations for the `PersitentVolumeClaim`
+  # -- Annotations for the `PersistentVolumeClaimData`
   annotations: {}
 
   accessModes:
@@ -159,10 +159,6 @@ persistentVolumeClaimData:
 
   ## subPath: "homelab"
 
-  nfs:
-    enabled: false
-    server: "192.168.0.1"
-    path: "/path/to/folder"
 
 
 customVolumesData:

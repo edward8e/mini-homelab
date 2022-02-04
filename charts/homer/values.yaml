@@ -93,7 +93,7 @@ env:
   PUID: "1000"
   PGID: "1000"
 
-# -- `spec.PersitentVolumeClaimConfig` configuration
+# -- `spec.PersistentVolumeClaimConfig` configuration
 persistentVolumeClaimConfig:
   # -- set to true to use pvc
   enabled: false
@@ -101,7 +101,7 @@ persistentVolumeClaimConfig:
   # -- specify an existing `PersistentVolumeClaimConfig` to use
   # existingClaim: ""
 
-  # -- Annotations for the `PersitentVolumeClaim`
+  # -- Annotations for the `PersistentVolumeClaimConfig`
   annotations: {}
 
   accessModes:
