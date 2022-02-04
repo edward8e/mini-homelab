@@ -4,6 +4,6 @@ description: Readarr Helm Chart compatible with ARM64 and ARM Docker Images. Tes
 
 type: application
 
-version: 0.1.2
+version: 0.1.3
 
 appVersion: "1.16.0"

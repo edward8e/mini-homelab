@@ -82,13 +82,9 @@ spec:
         emptyDir: {}
         {{- end }}
       - name: downloads
-        {{- if and .Values.persistentVolumeClaimData.enabled .Values.persistentVolumeClaimData.nfs.enabled }}
-        nfs:
-          server: {{ .Values.persistentVolumeClaimData.nfs.server }}
-          path: "{{ .Values.persistentVolumeClaimData.nfs.path }}"
-        {{- else if and (eq .Values.persistentVolumeClaimData.enabled true) (eq .Values.persistentVolumeClaimData.nfs.enabled false) }}
+        {{- if .Values.persistentVolumeClaimData.enabled }}
         persistentVolumeClaim:
-          claimName: {{ if .Values.persistentVolumeClaimData.existingClaim }}{{ .Values.persistentVolumeClaimData.existingClaim }}{{- else }}pvc-{{ template "homelab.fullname" . }}-data{{- end }}
+          claimName: {{ if .Values.persistentVolumeClaimData.existingClaim }}{{ .Values.persistentVolumeClaimData.existingClaim }}{{- else }}pvc-{{ template "homelab.fullname" . }}-config{{- end }}
         {{- else if .Values.customVolumesData.enabled }}
 {{- toYaml .Values.customVolumesData.config | nindent 8 }}
         {{- else }}
