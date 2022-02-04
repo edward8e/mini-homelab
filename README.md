@@ -31,14 +31,14 @@ helm show values edward8e/sonarr > values.yaml
 - Lidarr
 - Readarr
 - Overseerr
-- Jackett
-- qBittorrent
-- Wireguard
-- Gluetun
-- Homer
-- Mealie
-- Uptime Kuma
-- Forwarder (custom)
+- Jackett (develop)
+- qBittorrent (develop)
+- Wireguard (develop)
+- Gluetun (develop)
+- Homer (develop)
+- Mealie (develop)
+- Uptime Kuma (develop)
+- Forwarder (custom) (develop)
 
 
 ### Testing on:

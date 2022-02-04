@@ -1,7 +1,7 @@
 ![Version: 0.1.1](https://img.shields.io/badge/Version-0.1.1-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) 
 
-# Radarr
-Radarr Helm Chart compatible with ARM64 and ARM Docker Images.
+# Overseerr
+Overseerr Helm Chart compatible with ARM64 and ARM Docker Images.
 Tested on K3s Raspberry Pi4 cluster.
 
 
@@ -22,7 +22,7 @@ helm repo add edward8e https://edward8e.github.io/mini-homelab/
 helm repo update
 
 # Install/Upgrade chart
-helm upgrade -i radarr edward8e/radarr -f values.yaml
+helm upgrade -i overseerr edward8e/overseerr -f values.yaml
 
 # List Charts
 helm search repo edward8e
