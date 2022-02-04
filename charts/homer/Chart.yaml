@@ -1,0 +1,9 @@
+apiVersion: v2
+name: homer
+description: Homer Helm Chart compatible with ARM64 and ARM Docker Images. Tested on K3s Raspberry Pi4 cluster.
+
+type: application
+
+version: 0.1.0
+
+appVersion: "1.16.0"
