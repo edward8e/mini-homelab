@@ -1,10 +1,10 @@
 ![Version: 0.1.4](https://img.shields.io/badge/Version-0.1.4-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) 
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://github.com/edward8e/mini-homelab">
     <img src="./assets/homelab.svg" height="200" />
   </a>
-</p>
+</p> -->
 
 # Mini-Homelab Helm Charts
 Homelab Helm Charts compatible with ARM64 and ARM Docker Images.
