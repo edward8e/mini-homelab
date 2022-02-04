@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/jessestuart/tiller-multiarch">
-    <img src="./assets/homelab.svg" height="150" />
+    <img src="./assets/homelab.svg" height="200" />
   </a>
 </p>
 
