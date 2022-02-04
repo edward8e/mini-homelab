@@ -5,17 +5,17 @@
 replicaCount: 1
 
 image:
-  repository: linuxserver/sonarr
+  repository: hotio/readarr
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: "nightly"
 
 strategy:
   type: Recreate
 
 imagePullSecrets: []
 nameOverride: ""
-fullnameOverride: "sonarr"
+fullnameOverride: "readarr"
 
 serviceAccount:
   # Specifies whether a service account should be created
@@ -39,7 +39,7 @@ securityContext: {}
   # runAsNonRoot: true
   # runAsUser: 1000
 
-containerPort: 8989
+containerPort: 8787
 
 service:
   type: ClusterIP
@@ -52,7 +52,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: sonarr-example.local
+    - host: readarr-example.local
       paths:
         - path: /
           pathType: ImplementationSpecific
