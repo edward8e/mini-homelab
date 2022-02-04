@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: linuxserver/overseerr
+  repository: b4bz/homer
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
@@ -15,7 +15,7 @@ strategy:
 
 imagePullSecrets: []
 nameOverride: ""
-fullnameOverride: "overseerr"
+fullnameOverride: "homer"
 
 serviceAccount:
   # Specifies whether a service account should be created
@@ -39,7 +39,7 @@ securityContext: {}
   # runAsNonRoot: true
   # runAsUser: 1000
 
-containerPort: 5055
+containerPort: 8080
 
 service:
   type: ClusterIP
@@ -52,7 +52,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: overseerr-example.local
+    - host: homer-example.local
       paths:
         - path: /
           pathType: ImplementationSpecific

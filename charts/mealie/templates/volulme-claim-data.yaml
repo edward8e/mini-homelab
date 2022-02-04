@@ -1,0 +1,31 @@
+{{- if .Values.persistentVolumeClaimData.enabled -}}
+{{- if not .Values.persistentVolumeClaimData.existingClaim -}}
+apiVersion: "v1"
+kind: "PersistentVolumeClaim"
+metadata:
+{{- if .Values.persistentVolumeClaimData.annotations }}
+  annotations:
+{{ toYaml .Values.persistentVolumeClaimData.annotations | indent 4 }}
+{{- end }}
+  labels:
+    app: {{ template "homelab.name" . }}
+    chart: {{ .Chart.Name }}-{{ .Chart.Version }}
+    component: "{{ .Values.persistentVolumeClaimData.name }}"
+    heritage: {{ .Release.Service }}
+    release: {{ .Release.Name }}
+  name: pvc-{{ template "homelab.fullname" . }}-data
+spec:
+  accessModes:
+{{ toYaml .Values.persistentVolumeClaimData.accessModes | indent 4 }}
+{{- if .Values.persistentVolumeClaimData.storageClass }}
+{{- if (eq "-" .Values.persistentVolumeClaimData.storageClass) }}
+  storageClassName: ""
+{{- else }}
+  storageClassName: "{{ .Values.persistentVolumeClaimData.storageClass }}"
+{{- end }}
+{{- end }}
+  resources:
+    requests:
+      storage: "{{ .Values.persistentVolumeClaimData.size }}"
+{{- end -}}
+{{- end -}}

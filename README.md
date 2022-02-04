@@ -35,9 +35,9 @@ helm show values edward8e/sonarr > values.yaml
 - qBittorrent (develop)
 - Wireguard (develop)
 - Gluetun (develop)
-- Homer (develop)
-- Mealie (develop)
-- Uptime Kuma (develop)
+- Homer
+- Mealie
+- Uptime Kuma
 - Forwarder (custom) (develop)
 
 
