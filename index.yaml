@@ -1,5 +1,17 @@
 apiVersion: v1
 entries:
+  bazarr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-04T18:53:45.577376132Z"
+    description: Bazarr Helm Chart compatible with ARM64 and ARM Docker Images. Tested
+      on K3s Raspberry Pi4 cluster.
+    digest: c8b88c73726faa14a8e04e8a24cfc2caf92fce55d4aadb6a3dc216268b78bee8
+    name: bazarr
+    type: application
+    urls:
+    - https://github.com/edward8e/mini-homelab/releases/download/bazarr-0.1.2/bazarr-0.1.2.tgz
+    version: 0.1.2
   homer:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -171,4 +183,4 @@ entries:
     urls:
     - https://github.com/edward8e/mini-homelab/releases/download/uptime-kuma-0.1.2/uptime-kuma-0.1.2.tgz
     version: 0.1.2
-generated: "2022-02-04T13:11:32.642164373Z"
+generated: "2022-02-04T18:53:45.577402033Z"
