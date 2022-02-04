@@ -3,6 +3,17 @@ entries:
   bazarr:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-02-04T19:21:40.554203224Z"
+    description: Bazarr Helm Chart compatible with ARM64 and ARM Docker Images. Tested
+      on K3s Raspberry Pi4 cluster.
+    digest: b9ed1a59d5f2c478bdc2b6dc82ff83d7b35d9d3fa10fa2d604a3d9265e190868
+    name: bazarr
+    type: application
+    urls:
+    - https://github.com/edward8e/mini-homelab/releases/download/bazarr-0.1.3/bazarr-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-02-04T18:53:45.577376132Z"
     description: Bazarr Helm Chart compatible with ARM64 and ARM Docker Images. Tested
       on K3s Raspberry Pi4 cluster.
@@ -15,6 +26,17 @@ entries:
   homer:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-02-04T19:21:40.717214151Z"
+    description: Homer Helm Chart compatible with ARM64 and ARM Docker Images. Tested
+      on K3s Raspberry Pi4 cluster.
+    digest: 23dad1fc49bfb9ece89c0703a6cc5c6694aecd53d0f9e02bfc3e2d77d3b8c93e
+    name: homer
+    type: application
+    urls:
+    - https://github.com/edward8e/mini-homelab/releases/download/homer-0.1.3/homer-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-02-04T13:11:31.25367909Z"
     description: Homer Helm Chart compatible with ARM64 and ARM Docker Images. Tested
       on K3s Raspberry Pi4 cluster.
@@ -25,6 +47,17 @@ entries:
     - https://github.com/edward8e/mini-homelab/releases/download/homer-0.1.2/homer-0.1.2.tgz
     version: 0.1.2
   lidarr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-04T19:21:40.87858579Z"
+    description: Lidarr Helm Chart compatible with ARM64 and ARM Docker Images. Tested
+      on K3s Raspberry Pi4 cluster.
+    digest: b26fe542a1c0699d5d8bcf194b6b6a663c294c3297ba4509438e984376120bd1
+    name: lidarr
+    type: application
+    urls:
+    - https://github.com/edward8e/mini-homelab/releases/download/lidarr-0.1.3/lidarr-0.1.3.tgz
+    version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2022-02-04T13:11:31.462035817Z"
@@ -50,6 +83,17 @@ entries:
   mealie:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-02-04T19:21:41.045977934Z"
+    description: Mealie Helm Chart compatible with ARM64 and ARM Docker Images. Tested
+      on K3s Raspberry Pi4 cluster.
+    digest: 0494b08b83e1539be19f0f7e702726e79de9d1f980879ee52b732d0231c4caa8
+    name: mealie
+    type: application
+    urls:
+    - https://github.com/edward8e/mini-homelab/releases/download/mealie-0.1.3/mealie-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-02-04T13:11:31.677410705Z"
     description: Mealie Helm Chart compatible with ARM64 and ARM Docker Images. Tested
       on K3s Raspberry Pi4 cluster.
@@ -60,6 +104,17 @@ entries:
     - https://github.com/edward8e/mini-homelab/releases/download/mealie-0.1.2/mealie-0.1.2.tgz
     version: 0.1.2
   overseerr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-04T19:21:41.273141628Z"
+    description: Overseerr Helm Chart compatible with ARM64 and ARM Docker Images.
+      Tested on K3s Raspberry Pi4 cluster.
+    digest: 8f21c9e8b41c9f4898a2cd85b67b49ee2ef677e54783c62594ffee68685307ff
+    name: overseerr
+    type: application
+    urls:
+    - https://github.com/edward8e/mini-homelab/releases/download/overseerr-0.1.3/overseerr-0.1.3.tgz
+    version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2022-02-04T13:11:31.888085118Z"
@@ -83,6 +138,17 @@ entries:
     - https://github.com/edward8e/mini-homelab/releases/download/overseerr-0.1.0/overseerr-0.1.0.tgz
     version: 0.1.0
   radarr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-04T19:21:41.44623172Z"
+    description: Radarr Helm Chart compatible with ARM64 and ARM Docker Images. Tested
+      on K3s Raspberry Pi4 cluster.
+    digest: 8c725bb069c91ec36f991813c7c535b4727af3428925c63f0ef810c151dec68c
+    name: radarr
+    type: application
+    urls:
+    - https://github.com/edward8e/mini-homelab/releases/download/radarr-0.1.3/radarr-0.1.3.tgz
+    version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2022-02-04T13:11:32.078860644Z"
@@ -118,6 +184,17 @@ entries:
   readarr:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-02-04T19:21:41.582643093Z"
+    description: Readarr Helm Chart compatible with ARM64 and ARM Docker Images. Tested
+      on K3s Raspberry Pi4 cluster.
+    digest: 9a0a38dc19faefb723c9a47535cabc1d9725e26e227f665a5779155c4e2b59e3
+    name: readarr
+    type: application
+    urls:
+    - https://github.com/edward8e/mini-homelab/releases/download/readarr-0.1.3/readarr-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-02-04T13:11:32.268810975Z"
     description: Readarr Helm Chart compatible with ARM64 and ARM Docker Images. Tested
       on K3s Raspberry Pi4 cluster.
@@ -139,6 +216,17 @@ entries:
     - https://github.com/edward8e/mini-homelab/releases/download/readarr-0.1.0/readarr-0.1.0.tgz
     version: 0.1.0
   sonarr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-04T19:21:41.771114644Z"
+    description: Sonarr Helm Chart compatible with ARM64 and ARM Docker Images. Tested
+      on K3s Raspberry Pi4 cluster.
+    digest: c82670f94ff906e68b1e53b90d798889065b639126fbfc4d9733872ceefc3d04
+    name: sonarr
+    type: application
+    urls:
+    - https://github.com/edward8e/mini-homelab/releases/download/sonarr-0.1.3/sonarr-0.1.3.tgz
+    version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2022-02-04T13:11:32.43488554Z"
@@ -174,6 +262,17 @@ entries:
   uptime-kuma:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-02-04T19:21:41.940311993Z"
+    description: Uptime-Kuma Helm Chart compatible with ARM64 and ARM Docker Images.
+      Tested on K3s Raspberry Pi4 cluster.
+    digest: 7142726a1e5bf638a05ed83ff854be5a9dfabdaa564222fa74960b4c87427b96
+    name: uptime-kuma
+    type: application
+    urls:
+    - https://github.com/edward8e/mini-homelab/releases/download/uptime-kuma-0.1.3/uptime-kuma-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-02-04T13:11:32.642118373Z"
     description: Uptime-Kuma Helm Chart compatible with ARM64 and ARM Docker Images.
       Tested on K3s Raspberry Pi4 cluster.
@@ -183,4 +282,4 @@ entries:
     urls:
     - https://github.com/edward8e/mini-homelab/releases/download/uptime-kuma-0.1.2/uptime-kuma-0.1.2.tgz
     version: 0.1.2
-generated: "2022-02-04T18:53:45.577402033Z"
+generated: "2022-02-04T19:21:41.940377175Z"
