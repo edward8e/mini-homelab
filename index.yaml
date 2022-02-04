@@ -20,3 +20,26 @@ entries:
     urls:
     - https://github.com/edward8e/mini-homelab/releases/download/homelab-0.1.0/homelab-0.1.0.tgz
     version: 0.1.0
+  radarr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-04T11:51:54.33888538Z"
+    description: A Helm chart for Radarr for Kubernetes
+    digest: 4f7e2a266671935b7642cfb17250f2be42b2634f4fe32235d2e7d183fc01456c
+    name: radarr
+    type: application
+    urls:
+    - https://github.com/edward8e/mini-homelab/releases/download/radarr-0.1.0/radarr-0.1.0.tgz
+    version: 0.1.0
+  sonarr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-04T11:51:54.461829735Z"
+    description: A Helm chart for Sonarr for Kubernetes
+    digest: ad578d0c3991f88d47de4f8db6c45cba93614bf6e8e6205b40bd119e4cd63529
+    name: sonarr
+    type: application
+    urls:
+    - https://github.com/edward8e/mini-homelab/releases/download/sonarr-0.1.0/sonarr-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-02-04T11:51:54.461840336Z"
