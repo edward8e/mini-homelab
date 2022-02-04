@@ -1,6 +1,41 @@
 apiVersion: v1
 entries:
+  lidarr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-04T12:46:42.110748138Z"
+    description: Lidarr Helm Chart compatible with ARM64 and ARM Docker Images. Tested
+      on K3s Raspberry Pi4 cluster.
+    digest: e6594b566a404a0366ae6146b9ab7c13c862a38d4a0996860043231f8c6464b7
+    name: lidarr
+    type: application
+    urls:
+    - https://github.com/edward8e/mini-homelab/releases/download/lidarr-0.1.0/lidarr-0.1.0.tgz
+    version: 0.1.0
+  overseerr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-04T12:46:42.2594975Z"
+    description: Overseerr Helm Chart compatible with ARM64 and ARM Docker Images.
+      Tested on K3s Raspberry Pi4 cluster.
+    digest: 62d1418f4967f1ee56e678d30433cea6b7f4af972744d321955cea555403b18d
+    name: overseerr
+    type: application
+    urls:
+    - https://github.com/edward8e/mini-homelab/releases/download/overseerr-0.1.0/overseerr-0.1.0.tgz
+    version: 0.1.0
   radarr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-04T12:46:42.381750115Z"
+    description: Radarr Helm Chart compatible with ARM64 and ARM Docker Images. Tested
+      on K3s Raspberry Pi4 cluster.
+    digest: 4067aad5feb29e471473a9ab4d5440e71c0f8b5fdeb6e2daae6396375514620e
+    name: radarr
+    type: application
+    urls:
+    - https://github.com/edward8e/mini-homelab/releases/download/radarr-0.1.1/radarr-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2022-02-04T11:51:54.33888538Z"
@@ -11,7 +46,30 @@ entries:
     urls:
     - https://github.com/edward8e/mini-homelab/releases/download/radarr-0.1.0/radarr-0.1.0.tgz
     version: 0.1.0
+  readarr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-04T12:46:42.514536965Z"
+    description: Readarr Helm Chart compatible with ARM64 and ARM Docker Images. Tested
+      on K3s Raspberry Pi4 cluster.
+    digest: 575ffb07018ce7162fc09e1bafdb9fee90c7e0b7ebedbef7145ac87acf168a76
+    name: readarr
+    type: application
+    urls:
+    - https://github.com/edward8e/mini-homelab/releases/download/readarr-0.1.0/readarr-0.1.0.tgz
+    version: 0.1.0
   sonarr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-04T12:46:42.65076639Z"
+    description: Sonarr Helm Chart compatible with ARM64 and ARM Docker Images. Tested
+      on K3s Raspberry Pi4 cluster.
+    digest: 8bffbd2bf4f78fa7868733373a3fd413735ba89c4edbf62bad077f0e18502ffc
+    name: sonarr
+    type: application
+    urls:
+    - https://github.com/edward8e/mini-homelab/releases/download/sonarr-0.1.1/sonarr-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2022-02-04T11:51:54.461829735Z"
@@ -22,4 +80,4 @@ entries:
     urls:
     - https://github.com/edward8e/mini-homelab/releases/download/sonarr-0.1.0/sonarr-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-04T11:51:54.461840336Z"
+generated: "2022-02-04T12:46:42.650782391Z"
