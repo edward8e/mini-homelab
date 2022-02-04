@@ -4,6 +4,6 @@ description: Sonarr Helm Chart compatible with ARM64 and ARM Docker Images. Test
 
 type: application
 
-version: 0.1.1
+version: 0.1.2
 
 appVersion: "1.16.0"
