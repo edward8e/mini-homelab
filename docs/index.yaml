@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  homelab:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-04T01:13:43.078276-08:00"
+    dependencies:
+    - condition: radarr.enabled
+      name: radarr
+      repository: ""
+      version: 0.1.0
+    - condition: sonarr.enabled
+      name: sonarr
+      repository: ""
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: d5f11fc5df9c184afb1c25854258f8b238461e1ded104d9e528168465e85bcad
+    name: homelab
+    type: application
+    urls:
+    - https://edward8e.github.com/mini-homelab/homelab-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-02-04T01:13:43.077438-08:00"
