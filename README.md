@@ -19,6 +19,9 @@ helm upgrade -i sonarr edward8e/sonarr -f values.yaml
 
 # List Charts
 helm search repo edward8e
+
+# Get values.yaml
+helm show values edward8e/sonarr > values.yaml
 ```
 
 
