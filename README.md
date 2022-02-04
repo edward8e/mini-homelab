@@ -1,7 +1,7 @@
 ![Version: 0.1.4](https://img.shields.io/badge/Version-0.1.4-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) 
 
 <p align="center">
-  <a href="https://github.com/jessestuart/tiller-multiarch">
+  <a href="https://github.com/edward8e/mini-homelab">
     <img src="./assets/homelab.svg" height="200" />
   </a>
 </p>
@@ -40,8 +40,10 @@ helm show values edward8e/sonarr > values.yaml
 - Overseerr
 - Bazarr
 - Jackett (develop)
+- Flood
 - qBittorrent (develop)
-- Wireguard (develop)
+- Wireguard 
+- Code Server (develop)
 - Gluetun (develop)
 - Homer
 - Mealie
