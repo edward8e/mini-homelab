@@ -40,8 +40,10 @@ helm show values edward8e/sonarr > values.yaml
 - Overseerr
 - Bazarr
 - Jackett (develop)
+- Flood
 - qBittorrent (develop)
-- Wireguard (develop)
+- Wireguard 
+- Code Server (develop)
 - Gluetun (develop)
 - Homer
 - Mealie
